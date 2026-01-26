@@ -1,0 +1,47 @@
+{
+    "id": "kedudukan-garis-lingkaran",
+    "title": "Kedudukan garis lingkaran",
+    "description": "Kuis interaktif untuk memahami hubungan antara garis dan lingkaran",
+    "totalQuestions": 3,
+    "questions": [
+        {
+            "id": 1,
+            "question": "Gambar di bawah ini merupakan kedudukan garis?",
+            "imageUrl": "/kedudukan-memotong-lingkaran-1.png",
+            "options": [
+                "Garis memotong lingkaran",
+                "Garis menyinggung lingkaran",
+                "Garis tidak memotong lingkaran",
+                "Garis menyentuh lingkaran"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Garis memasuki lingkaran dan memotong dua titik di lingkaran"
+        },
+        {
+            "id": 2,
+            "question": "Gambar di bawah ini merupakan kedudukan garis?",
+            "imageUrl": "/kedudukan-tidak-memotong-lingkaran-1.png",
+            "options": [
+                "Garis memotong lingkaran",
+                "Garis menyinggung lingkaran",
+                "Garis tidak memotong lingkaran",
+                "Garis membelah lingkaran"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Garis tidak menyentuh lingkaran sama sekali"
+        },
+        {
+            "id": 3,
+            "question": "Gambar di bawah ini merupakan kedudukan garis?",
+            "imageUrl": "/kedudukan-menyinggung-lingkaran-1.png",
+            "options": [
+                "Garis memotong lingkaran",
+                "Garis menyinggung lingkaran",
+                "Garis tidak memotong lingkaran",
+                "Garis membelah lingkaran"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Garis hanya menyentuh lingkaran di satu titik"
+        }
+    ]
+}
