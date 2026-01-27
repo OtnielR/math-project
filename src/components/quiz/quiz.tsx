@@ -1,16 +1,14 @@
 import { useState } from "react"
-import quizData from "../../data/quiz-kedudukan-garis-lingkaran.json"
 import type { Quiz } from "../../types/quiz"
 import Quizs from "../ui/quiz/quiz"
-import type { Dispatch, SetStateAction } from "react"
 
 type Props = {
-    setSectionHidden: Dispatch<SetStateAction<boolean>>
+    setSectionVisible: Function
+    quiz: Quiz
 }
 
-const quiz: Quiz = quizData
 
-export default function QuizJenisJenisKedudukanLingkaran({ setSectionHidden }: Props) {
+export default function QuizSection({ quiz, setSectionVisible }: Props) {
     const [complete, setComplete] = useState(false)
     const [visible, setVisible] = useState(true)
 
@@ -19,8 +17,8 @@ export default function QuizJenisJenisKedudukanLingkaran({ setSectionHidden }: P
 
         setTimeout(() => {
             setVisible(false)
-            setSectionHidden(false)
-        }, 500)
+            setSectionVisible()
+        }, 1000)
     }
 
     return (

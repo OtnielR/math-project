@@ -1,0 +1,47 @@
+{
+    "id": "langkah-langkah-kedudukan-garis-lingkaran",
+    "title": "Kedudukan garis lingkaran",
+    "description": "Kuis interaktif untuk memahami hubungan antara garis dan lingkaran",
+    "totalQuestions": 3,
+    "questions": [
+        {
+            "id": 1,
+            "question": "Jika nilai diskriminan adalah 6, maka apa kedudukan garis nya?",
+            "imageUrl": "",
+            "options": [
+                "Garis memotong lingkaran",
+                "Garis menyinggung lingkaran",
+                "Garis tidak memotong lingkaran",
+                "Tidak bisa di tentukan"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Jika nilai diskriminan lebih dari 0, maka garis akan memotong lingkaran pada 2 titik"
+        },
+        {
+            "id": 2,
+            "question": "Jika nilai diskriminan adalah -10, maka apa kedudukan garis nya?",
+            "imageUrl": "",
+            "options": [
+                "Garis memotong lingkaran",
+                "Garis menyinggung lingkaran",
+                "Garis tidak memotong lingkaran",
+                "Garis membelah lingkaran"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Jika nilai diskriminan kurang dari 0, maka garis tidak akan memotong lingkaran"
+        },
+        {
+            "id": 3,
+            "question": "Jika nilai diskriminan adalah 0, maka apa kedudukan garis nya?",
+            "imageUrl": "",
+            "options": [
+                "Garis memotong lingkaran",
+                "Garis menyinggung lingkaran",
+                "Garis tidak memotong lingkaran",
+                "Garis membelah lingkaran"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Jika nilai diskriminan sama dengan 0, maka garis akan menyinggung lingkaran"
+        }
+    ]
+}

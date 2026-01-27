@@ -20,7 +20,7 @@ export default function StickyNavbar() {
     return (
         <>
             <nav className={`
-        fixed top-0 z-50 w-full h-8 md:h-10 flex justify-end items-center px-4 md:px-6 lg:px-8 py-8
+        fixed top-0 z-50 w-full h-6 md:h-8 lg:h-10 flex justify-end items-center px-2 md:px-4 lg:px-6 py-8
         transition-all duration-300 ease-out
         ${visible
                     ? "opacity-100 translate-y-0"
@@ -28,7 +28,7 @@ export default function StickyNavbar() {
       `}>
 
                 <section >
-                    <div className="bg-black text-white text-sm px-4 py-2 rounded-3xl ">
+                    <div className=" bg-black text-white text-xs md:text-sm px-4 py-2 rounded-3xl ">
                         <ProgressBar />
                     </div>
                 </section>
