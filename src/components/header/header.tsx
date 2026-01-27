@@ -3,9 +3,9 @@ import Navbar from "../navbar/navbar"
 export default function Header() {
     return (
         <>
-            <header className="relative w-full min-h-screen flex flex-col p-3 py-6 md:p-4 md:py-4 gap-5 md:gap-4 pb-6 md:pb-0">
+            <header className="relative w-full md:min-h-screen flex flex-col px-3 py-6 md:p-4 md:py-4 gap-5 md:gap-4 pb-6 md:pb-0">
                 <Navbar></Navbar>
-                <div className="w-full h-full bg-[#43B869] rounded-xl flex-1 flex flex-col-reverse justify-center gap-6 md:gap-2 md:grid md:grid-cols-2 lg:grid-cols-3 px-4 lg:px-12 md:py-6 lg:py-8 ">
+                <div className="w-full h-full bg-[#43B869] rounded-xl flex-1 flex flex-col-reverse justify-center gap-6 md:gap-2 md:grid md:grid-cols-2 lg:grid-cols-3 px-4 lg:px-12 py-6 md:py-6 lg:py-8 ">
                     <div className="col-span-1 lg:col-span-2" id="left">
                         <div className="lg:w-4/5 h-full flex flex-col justify-center gap-2 md:gap-4 px-4">
                             <div className="border-b border-gray-600 pb-4 md:pb-6">
