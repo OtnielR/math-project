@@ -29,7 +29,7 @@ export default function JenisJenisKedudukanLingkaranSection() {
 
                     </CardItem>
                     <CardItem title="Tidak Memotong Lingkaran" imageUrl="/kedudukan-tidak-memotong-lingkaran-1.png">
-                        <h2 className="text-sm">Garis <b>Memotong </b>Lingkaran Jika</h2>
+                        <h2 className="text-sm">Garis Tidak <b>Memotong </b>Lingkaran Jika</h2>
                         <div className="text-sm pl-4 ">
                             <ul className="list-disc text-xs md:text-sm lg:text-md">
                                 <li>Garis <b>berada di luar lingkaran</b></li>
