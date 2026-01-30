@@ -33,7 +33,7 @@ export default function ContohSoalSection() {
                                 <br />                               <br />
                                 D = 222
                                 <br />                               <br />
-                                Karena nilai diskriminannya adalah 222, dan 222 {'>'} 0, maka garis y = 3x – 1 memotong lingkaran x2 + y2 + 2x + 2y – 4 = 0 di dua titik.</p>
+                                Karena nilai diskriminannya adalah 222, dan 222 {'>'} 0, maka garis y = 3x – 1 memotong lingkaran x<sup>2</sup> + y<sup>2</sup> + 2x + 2y – 4 = 0 di dua titik.</p>
                         </div>
                     </Card>
 
