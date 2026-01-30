@@ -9,8 +9,9 @@ export default function ContohSoalSection() {
                 <div className="text-sm md:text-md px-2 md:px-4">
                     <Card>
                         <div className="flex flex-col gap-4">
+                            <b>Soal: </b>
                             <h2>Tentukan posisi garis y = 3x – 1 terhadap lingkaran x<sup>2</sup> + y<sup>2</sup> + 2x + 2y – 4 = 0!</h2>
-                            <b>Pembahasan</b>
+                            <b>Pembahasan: </b>
                             <p>
                                 Pertama, kita cari persamaan kuadrat dengan mensubstitusikan terlebih dahulu persamaan garis y = 3x – 1 ke dalam persamaan lingkaran x<sup>2</sup> + y<sup>2</sup> + 2x + 2y – 4 = 0, sehingga:
                                 <br />                               <br />
