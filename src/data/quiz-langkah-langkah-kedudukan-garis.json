@@ -83,7 +83,7 @@
             "explanation": "a = 1, b = -6, c = 9 → D = (-6)² - 4(1)(9) = 36 - 36 = 0"
         },
         {
-            "id": 8,
+            "id": 7,
             "question": "Dari persamaan x² + 2x + 5 = 0, tentukan nilai diskriminannya.",
             "imageUrl": "",
             "options": [
