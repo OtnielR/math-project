@@ -6,11 +6,8 @@ import quizKedudukanGarisLingkaran from "../../data/quiz-kedudukan-garis-lingkar
 import quizLangkahLangkahMenentukan from "../../data/quiz-langkah-langkah-kedudukan-garis.json"
 import { useState } from "react"
 
-type Props = {
-    skipQuiz: Function
-}
 
-export default function Main({ skipQuiz }: Props) {
+export default function Main() {
     const [sectionHiddenSteps, setSectionHiddenSteps] = useState<boolean>(true)
     const [sectionCompleteSteps, setSectionCompleteSteps] = useState<boolean>(false)
     const [sectionHiddenExample, setSectionHiddenExample] = useState<boolean>(true)
