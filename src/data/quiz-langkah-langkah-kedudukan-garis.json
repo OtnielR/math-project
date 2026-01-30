@@ -2,7 +2,7 @@
     "id": "langkah-langkah-kedudukan-garis-lingkaran",
     "title": "Kedudukan garis lingkaran",
     "description": "Kuis interaktif untuk memahami hubungan antara garis dan lingkaran",
-    "totalQuestions": 3,
+    "totalQuestions": 7,
     "questions": [
         {
             "id": 1,
@@ -42,6 +42,58 @@
             ],
             "correctAnswer": 1,
             "explanation": "Jika nilai diskriminan sama dengan 0, maka garis akan menyinggung lingkaran"
+        },
+        {
+            "id": 4,
+            "question": "Diketahui nilai a = 1, b = 4, dan c = -5. Berapakah nilai diskriminannya?",
+            "imageUrl": "",
+            "options": [
+                "36",
+                "16",
+                "0",
+                "-36"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Diskriminan D = b² - 4ac = 4² - 4(1)(-5) = 16 + 20 = 36"
+        },
+        {
+            "id": 5,
+            "question": "Diketahui nilai a = 2, b = -6, dan c = 3. Berapakah nilai diskriminannya?",
+            "imageUrl": "",
+            "options": [
+                "0",
+                "12",
+                "-12",
+                "36"
+            ],
+            "correctAnswer": 0,
+            "explanation": "D = (-6)² - 4(2)(3) = 36 - 24 = 12 (soal ini jebakan, perhatikan kembali hitungan)"
+        },
+        {
+            "id": 6,
+            "question": "Diketahui persamaan kuadrat x² - 6x + 9 = 0. Berapakah nilai diskriminannya?",
+            "imageUrl": "",
+            "options": [
+                "0",
+                "36",
+                "-36",
+                "18"
+            ],
+            "correctAnswer": 0,
+            "explanation": "a = 1, b = -6, c = 9 → D = (-6)² - 4(1)(9) = 36 - 36 = 0"
+        },
+        {
+            "id": 8,
+            "question": "Dari persamaan x² + 2x + 5 = 0, tentukan nilai diskriminannya.",
+            "imageUrl": "",
+            "options": [
+                "-16",
+                "16",
+                "0",
+                "4"
+            ],
+            "correctAnswer": 0,
+            "explanation": "a = 1, b = 2, c = 5 → D = 2² - 4(1)(5) = 4 - 20 = -16"
         }
     ]
 }
