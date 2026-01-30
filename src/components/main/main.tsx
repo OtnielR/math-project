@@ -36,7 +36,7 @@ export default function Main({ skipQuiz }: Props) {
 
     return (
         <>
-            <main className="py-6 px-6 lg:py-8 lg:px-14 flex flex-col gap-4" id="main">
+            <main className="py-6 px-6 lg:py-8 lg:px-14 flex flex-col gap-4 md:gap-8" id="main">
                 <div>
                     <JenisJenisKedudukanLingkaranSection />
                     <QuizSection quiz={quizKedudukanGarisLingkaran} setSectionVisible={setSectionStepsVisible} />
