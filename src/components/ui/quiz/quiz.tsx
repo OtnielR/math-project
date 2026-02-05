@@ -59,7 +59,7 @@ export default function Quizs({ quiz, onComplete }: QuizsProps) {
         <>
             <section className="max-h-screen">
                 <div className="h-9/10 flex items-center justify-center ">
-                    <div className="h-9/10 flex flex-col gap-4 w-full md:w-4/5 lg:w-1/2 rounded-lg rounded-bl-3xl rounded-tr-3xl bg-[#43B869] px-2 md:px-8 py-4">
+                    <div className="h-9/10 flex flex-col gap-4 w-full md:w-4/5 lg:w-1/2 rounded-lg rounded-bl-3xl rounded-tr-3xl bg-[#43B869] px-2 md:px-8 py-8">
                         <div className="flex justify-between items-center gap-4 mb-2 px-2">
                             <div >
                                 <h1 className="font-semibold text-xs md:text-sm tracking-wide">{quiz.title}</h1>
@@ -71,8 +71,8 @@ export default function Quizs({ quiz, onComplete }: QuizsProps) {
                         </div>
                         <div>
                             <div className="flex flex-col justify-center items-center gap-2">
-                                <h1 className="text-center text-sm md:text-lg font-semibold">{currentQuestion.question}</h1>
-                                <div className="w-full  :text-md flex justify-center">
+                                <h1 className="text-center text-sm md:text-lg font-semibold px-2">{currentQuestion.question}</h1>
+                                <div className="w-full  sm:text-md flex justify-center">
                                     <img className={`w-3/5 md:w-2/5 rounded-xl ${currentQuestion.imageUrl ? "block" : "hidden"}`} src={currentQuestion.imageUrl} />
                                 </div>
                                 <div className="w-full flex flex-col gap-4 pt-4 px-4">
@@ -112,7 +112,7 @@ export default function Quizs({ quiz, onComplete }: QuizsProps) {
 
 
                                 {answered && currentQuestion.explanation && (
-                                    <div className="text-xs text-gray-600 px-8 pt-2">
+                                    <div className="text-xs text-gray-600 px-4 md:px-8 pt-2">
                                         {currentQuestion.explanation}
                                     </div>
                                 )}

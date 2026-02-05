@@ -27,8 +27,8 @@ export default function StickyNavbar() {
                     : "opacity-0 -translate-y-2 pointer-events-none"}
       `}>
 
-                <section >
-                    <div className=" bg-black text-white text-xs md:text-sm px-4 py-2 rounded-3xl ">
+                <section className="">
+                    <div className="w-full bg-black text-white text-xs md:text-sm px-4 py-2 rounded-3xl ">
                         <ProgressBar />
                     </div>
                 </section>

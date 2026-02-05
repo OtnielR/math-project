@@ -1,6 +1,10 @@
 import Navbar from "../navbar/navbar"
 
-export default function Header() {
+type Props = {
+    onSkipQuizPress: Function
+}
+
+export default function Header({ onSkipQuizPress }: Props) {
     return (
         <>
             <header className="relative w-full md:min-h-screen flex flex-col px-3 py-6 md:p-4 md:py-4 gap-5 md:gap-4 pb-6">
@@ -16,7 +20,7 @@ export default function Header() {
                             </div>
                             <div className="flex justify-center md:justify-start gap-4">
                                 <a className="bg-black text-white text-sm px-4 py-2 lg:text-md lg:px-8 lg:py-3 rounded-3xl font-light " href="#main">Start</a>
-                                <a className="bg-transparent text-black border border-black text-sm px-4 py-2 lg:text-md lg:px-8 lg:py-3  rounded-3xl font-light hover:border-gray-600 transition-border " href="">Jump to Quiz</a>
+                                <button className="bg-transparent text-black border border-black text-sm px-4 py-2 lg:text-md lg:px-8 lg:py-3  rounded-3xl font-light hover:border-gray-600 transition-border cursor-pointer" onClick={() => onSkipQuizPress()}>Jump to Quiz</button>
 
                             </div>
                         </div>

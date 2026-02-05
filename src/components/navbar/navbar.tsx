@@ -5,7 +5,7 @@ export default function Navbar() {
                 <section>
                     <p className="text-md lg:text-md">Kelompok 7</p>
                 </section>
-                <section className="w-2/6 relative hidden md:flex justify-evenly items-center py-3 ">
+                <section className="w-2/6 relative hidden md:hidden justify-evenly items-center py-3 ">
                     <a className="text-md lg:text-md" href="">Home</a>
                     <p className="text-lg lg:text-2xl">.</p>
                     <a className="text-md lg:text-md" href="">Materi</a>

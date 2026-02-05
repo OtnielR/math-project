@@ -1,0 +1,20 @@
+{
+    "id": "quiz-garis-lingkaran-diskriminan",
+    "title": "Quiz: Kedudukan Garis terhadap Lingkaran",
+    "description": "Tentukan posisi garis terhadap lingkaran menggunakan diskriminan.",
+    "totalQuestions": 1,
+    "questions": [
+        {
+            "id": 1,
+            "question": "Tentukan posisi garis y = x + 1 terhadap lingkaran x² + y² - 2x - 2y + 5 = 0!",
+            "options": [
+                "Garis memotong lingkaran (dua titik potong)",
+                "Garis menyinggung lingkaran (satu titik potong)",
+                "Garis tidak memotong lingkaran (tidak ada titik potong)",
+                "Garis merupakan diameter lingkaran"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Substitusi y = x + 1 ke persamaan lingkaran menghasilkan 2x² - 2x + 4 = 0. Diskriminannya D = b² - 4ac = (-2)² - 4(2)(4) = 4 - 32 = -28. Karena D < 0, maka garis tidak memotong lingkaran."
+        }
+    ]
+}

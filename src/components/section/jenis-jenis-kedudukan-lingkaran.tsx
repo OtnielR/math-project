@@ -8,7 +8,7 @@ export default function JenisJenisKedudukanLingkaranSection() {
                 <SectionTitle title="Jenis-Jenis Kedudukan Garis Terhadap Lingkaran"></SectionTitle>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-2 gap-8 md:px-4 md:gap-6 lg:px-8 lg:gap-10 mb-4">
                     <CardItem title="Memotong Lingkaran" imageUrl="/kedudukan-memotong-lingkaran-1.png">
-                        <h2 className="text-sm">Garis <b>Memotong </b>Lingkaran Jika</h2>
+                        <h2 className="text-xs md:text-sm">Garis <b>Memotong </b>Lingkaran Jika</h2>
                         <div className="text-xs md:text-sm pl-4 ">
                             <ul className="list-disc">
                                 <li>Garis <b>masuk ke dalam lingkaran</b></li>
@@ -18,7 +18,7 @@ export default function JenisJenisKedudukanLingkaranSection() {
                         </div>
                     </CardItem>
                     <CardItem title="Menyinggung Lingkaran" imageUrl="/kedudukan-menyinggung-lingkaran-1.png">
-                        <h2 className="text-sm">Garis <b>Menyinggung </b>Lingkaran Jika</h2>
+                        <h2 className="text-xs md:text-sm">Garis <b>Menyinggung </b>Lingkaran Jika</h2>
                         <div className="text-xs md:text-sm pl-4 ">
                             <ul className="list-disc">
                                 <li>Garis <b>tidak memotong lingkaran</b></li>
@@ -29,7 +29,7 @@ export default function JenisJenisKedudukanLingkaranSection() {
 
                     </CardItem>
                     <CardItem title="Tidak Memotong Lingkaran" imageUrl="/kedudukan-tidak-memotong-lingkaran-1.png">
-                        <h2 className="text-sm">Garis Tidak <b>Memotong </b>Lingkaran Jika</h2>
+                        <h2 className="text-xs md:text-sm">Garis Tidak <b>Memotong </b>Lingkaran Jika</h2>
                         <div className="text-sm pl-4 ">
                             <ul className="list-disc text-xs md:text-sm lg:text-md">
                                 <li>Garis <b>berada di luar lingkaran</b></li>

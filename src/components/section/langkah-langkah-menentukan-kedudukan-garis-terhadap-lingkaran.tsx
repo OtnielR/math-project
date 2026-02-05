@@ -7,7 +7,7 @@ export default function LangkahLangkahMenentukanKedudukanGarisSection() {
         <>
             <section className="flex flex-col gap-4">
                 <SectionTitle title="Langkah-Langkah Menentukan Kedudukan Garis"></SectionTitle>
-                <div className="text-sm md:text-md px-2 md:px-4">
+                <div className="text-xs md:text-sm lg:text-md px-2 md:px-4">
                     <OrderedList title="Untuk menentukan kedudukan garis terhadap lingkaran langkah-langkahnya sebagai berikut:">
                         <li>Substitusi 𝑦 dari persamaan garis y = mx + n ke persamaan lingkaran x<sup>2</sup> + y<sup>2</sup> + Ax + By + C = 0.</li>
                         <li>Susun persamaan kuadrat sekutu dalam variabel 𝑥 (bentuk ax + bx + c = 0).</li>
