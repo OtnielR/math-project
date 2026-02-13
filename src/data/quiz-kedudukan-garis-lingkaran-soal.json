@@ -2,7 +2,7 @@
     "id": "quiz-garis-lingkaran-diskriminan",
     "title": "Quiz: Kedudukan Garis terhadap Lingkaran",
     "description": "Tentukan posisi garis terhadap lingkaran menggunakan diskriminan.",
-    "totalQuestions": 1,
+    "totalQuestions": 4,
     "questions": [
         {
             "id": 1,
@@ -15,6 +15,42 @@
             ],
             "correctAnswer": 2,
             "explanation": "Substitusi y = x + 1 ke persamaan lingkaran menghasilkan 2x² - 2x + 4 = 0. Diskriminannya D = b² - 4ac = (-2)² - 4(2)(4) = 4 - 32 = -28. Karena D < 0, maka garis tidak memotong lingkaran."
+        },
+        {
+            "id": 2,
+            "question": "Tentukan posisi garis y = 2x - 3 terhadap lingkaran x² + y² - 4x + 2y - 1 = 0!",
+            "options": [
+                "Garis memotong lingkaran (dua titik potong)",
+                "Garis menyinggung lingkaran (satu titik potong)",
+                "Garis tidak memotong lingkaran (tidak ada titik potong)",
+                "Garis merupakan diameter lingkaran"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Substitusi y = 2x - 3 ke persamaan lingkaran: x² + (2x - 3)² - 4x + 2(2x - 3) - 1 = 0 menghasilkan 5x² - 12x + 2 = 0. Diskriminan D = (-12)² - 4(5)(2) = 144 - 40 = 104. Karena D > 0, maka garis memotong lingkaran di dua titik."
+        },
+        {
+            "id": 3,
+            "question": "Tentukan posisi garis y = -x + 3 terhadap lingkaran x² + y² - 2x - 6y + 9 = 0!",
+            "options": [
+                "Garis memotong lingkaran (dua titik potong)",
+                "Garis menyinggung lingkaran (satu titik potong)",
+                "Garis tidak memotong lingkaran (tidak ada titik potong)",
+                "Garis merupakan diameter lingkaran"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Substitusi y = -x + 3 ke persamaan lingkaran: x² + (-x + 3)² - 2x - 6(-x + 3) + 9 = 0. Diperoleh: x² + (x² - 6x + 9) - 2x + 6x - 18 + 9 = 0 sehingga menjadi 2x² - 2x = 0. Dengan a = 2, b = -2, c = 0. Diskriminan D = (-2)² - 4(2)(0) = 4. Karena D > 0, maka garis memotong lingkaran di dua titik."
+        },
+        {
+            "id": 4,
+            "question": "Tentukan posisi garis y = x - 4 terhadap lingkaran x² + y² + 2x - 8y + 20 = 0!",
+            "options": [
+                "Garis memotong lingkaran (dua titik potong)",
+                "Garis menyinggung lingkaran (satu titik potong)",
+                "Garis tidak memotong lingkaran (tidak ada titik potong)",
+                "Garis merupakan diameter lingkaran"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Substitusi y = x - 4 ke persamaan lingkaran: x² + (x - 4)² + 2x - 8(x - 4) + 20 = 0 menghasilkan 2x² - 14x + 68 = 0. Dengan a = 2, b = -14, c = 68. Diskriminan D = (-14)² - 4(2)(68) = 196 - 544 = -348. Karena D < 0, maka garis tidak memotong lingkaran."
         }
     ]
 }
