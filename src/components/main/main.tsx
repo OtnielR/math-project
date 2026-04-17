@@ -60,7 +60,7 @@ export default function Main({ isSkipQuiz }: Props) {
 
     return (
         <>
-            <main className="py-6 px-4 lg:py-8 lg:px-14 flex flex-col gap-10 md:gap-14" id="main">
+            <main className="py-6 px-3 lg:py-8 lg:px-14 flex flex-col gap-10 md:gap-14" id="main">
                 <div>
                     <JenisJenisKedudukanLingkaranSection />
                     <div className={`${sectionCompleteSteps ? "hidden" : "block"}`}>
@@ -73,7 +73,7 @@ export default function Main({ isSkipQuiz }: Props) {
                         }`}>
                         <LangkahLangkahMenentukanKedudukanGarisSection />
 
-                        <div className={`${sectionCompleteSteps ? "hidden" : "block"}`}>
+                        <div className={`${sectionCompleteQuiz ? "hidden" : "block"}`}>
                             <QuizSection quiz={quizLangkahLangkahMenentukan} setSectionVisible={setSectionExampleVisible}></QuizSection>
                         </div>
 
