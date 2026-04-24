@@ -51,6 +51,18 @@
             ],
             "correctAnswer": 2,
             "explanation": "Substitusi y = x - 4 ke persamaan lingkaran: x² + (x - 4)² + 2x - 8(x - 4) + 20 = 0 menghasilkan 2x² - 14x + 68 = 0. Dengan a = 2, b = -14, c = 68. Diskriminan D = (-14)² - 4(2)(68) = 196 - 544 = -348. Karena D < 0, maka garis tidak memotong lingkaran."
+        },
+        {
+            "id": 5,
+            "question": "Tentukan posisi garis y = x + 2 terhadap lingkaran x² + y² = 2!",
+            "options": [
+                "Garis memotong lingkaran (dua titik potong)",
+                "Garis menyinggung lingkaran (satu titik potong)",
+                "Garis tidak memotong lingkaran (tidak ada titik potong)",
+                "Garis merupakan diameter lingkaran"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Substitusi y = x + 2 ke persamaan lingkaran menghasilkan 2x² + 4x + 2 = 0. Diskriminannya D = b² - 4ac = 4² - 4(2)(2) = 16 - 16 = 0. Karena D = 0, maka garis menyinggung lingkaran."
         }
     ]
 }
